@@ -8,6 +8,6 @@ string Recursia (int n)
     return Recursia(n-1) + ", " + n;
 }
 
-Console.Writed("Введите N:");
+Console.Write("Введите N:");
 int n = Convert.ToInt32(Console.ReadLine());    
 Console.WriteLine($"{Recursia(n)}");
